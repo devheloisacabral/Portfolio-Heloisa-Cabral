@@ -10,7 +10,7 @@
   
   :root {
     --hue: 90;
-    --primary-color: #7e00f5;
+    --primary-color: #1af106;
     --primary-hover: hsl(var(--hue), 92%, 33%);
     --secundary-color: hsl(0, 0%, 5%);
     --third-color: hsla(0, 0%, 100%, 0.1);
