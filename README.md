@@ -1,2 +1,2 @@
-# Portifolio-Heloisa-Cabral
-https://devheloisacabral.github.io/Portifolio-Heloisa-Cabral/
+# Portfolio-Heloisa-Cabral
+https://devheloisacabral.github.io/Portfolio-Heloisa-Cabral/
