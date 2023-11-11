@@ -448,7 +448,7 @@
   
   #home .typing {
     animation: line-typing 500ms steps(40) infinite normal,
-      typing 2s steps(40) 1.4s normal backwards;
+      typing 2s steps(40) 1s normal backwards;
   }
   
   @keyframes typing {
@@ -456,7 +456,7 @@
       width: 0;
     }
     to {
-      width: 27.5rem;
+      width: 5.5rem;
     }
   }
   
@@ -766,6 +766,164 @@
   }
   
   #projects .button {
+    margin: 6rem auto 0;
+  }
+
+  
+
+   #projects2 {
+    background-color: var(--secundary-color);
+  }
+  
+  #projects2 header {
+    margin-bottom: 6rem;
+  }
+  
+  #projects2 header h2 {
+    margin-bottom: 1.6rem;
+  }
+  
+  #projects2 header p {
+    max-width: 60rem;
+    margin: 0 auto 3rem;
+    text-align: center;
+  }
+  
+  #projects2 header p a {
+    color: var(--paragraph);
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  #projects2 header p + a {
+    padding: 0.8rem 2rem;
+    color: var(--paragraph);
+  
+    background-color: var(--third-color);
+    border-radius: 0.8rem;
+  
+    display: inline-flex;
+    justify-content: center;
+    gap: 1rem;
+  
+    transition: 300ms;
+  }
+  
+  #projects2 header a svg path:nth-child(2) {
+    fill: var(--headline);
+  }
+  
+  #projects2 header a:hover {
+    filter: brightness(0.7);
+  }
+  
+  #projects2 .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3.2rem;
+  }
+  
+  #projects2 .card {
+    padding: 4rem;
+    background: var(--bg-color);
+  
+    border-radius: 0.6rem;
+    box-shadow: -1rem 1rem 1rem rgba(0, 0, 0, 0.267);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+  
+    transition: 400ms;
+  }
+  
+  #projects2 .card:hover {
+    background: var(--third-color);
+  }
+  
+  #projects2 .card .img-wrapper {
+    width: 100%;
+    position: relative;
+  }
+  
+  #projects2 .card img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 0.6rem;
+  
+    transition: 300ms;
+  }
+  
+  #projects2 .card:hover > .img-wrapper img {
+    filter: opacity(0.5);
+  }
+  
+  #projects2 .card .buttons {
+    visibility: hidden;
+    opacity: 0;
+  
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  
+    transition: 400ms;
+  }
+  
+  #projects2 .card:hover > .img-wrapper .buttons {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  #projects2 .card .buttons a svg {
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  #projects2 .card .buttons a svg path:nth-child(2) {
+    fill: #000;
+    transition: 200ms;
+  }
+  
+  #projects2 .card .buttons a:hover svg path:nth-child(2) {
+    fill: #fff;
+  }
+  
+  #projects2 .card .buttons a {
+    background: #fff;
+    border-radius: 50%;
+  
+    width: 6rem;
+    height: 6rem;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    transition: 500ms;
+  }
+  
+  #projects2 .card .buttons a:hover {
+    background-color: #000;
+    cursor: pointer;
+  }
+  
+  #projects2 .card .buttons a:hover > svg {
+    fill: #fff;
+  }
+  
+  #projects2 .card:nth-child(8) svg path:nth-child(2) {
+    fill: var(--paragraph);
+  }
+  
+  #projects2 .button {
     margin: 6rem auto 0;
   }
   
