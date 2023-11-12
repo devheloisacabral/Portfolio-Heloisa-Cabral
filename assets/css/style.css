@@ -400,7 +400,7 @@
   /*===== HOME ===================================*/
   
   #home {
-    height: 100vh;
+    height: 61vh;
     min-height: calc(60rem + var(--nav-height));
     padding-block: 0;
   
